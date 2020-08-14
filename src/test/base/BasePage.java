@@ -3,6 +3,7 @@ package base;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +15,7 @@ public class BasePage {
 
     public BasePage(WebDriver driver){
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     public void sleep(long milliseconds){
@@ -43,6 +45,11 @@ public class BasePage {
         ExpectedCondition<Boolean> pageLoadCondition = driver -> ((JavascriptExecutor)driver).executeScript("return document.readyState").equals("complete");
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(pageLoadCondition);
+    }
+
+    public void waitForAlert(){
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.alertIsPresent());
     }
 
     public void click(WebElement element){

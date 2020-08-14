@@ -1,20 +1,40 @@
 package tests;
 
 import base.BaseTest;
+import com.relevantcodes.extentreports.LogStatus;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pages.HomePage;
 
+import java.lang.reflect.Method;
 import java.util.Set;
 
 public class HomePageTest extends BaseTest {
+    HomePage homePage;
+
+    @BeforeMethod(alwaysRun = true)
+    public void setUp(ITestResult result, Method method){
+        super.setUp(method, result);
+        homePage = new HomePage(driver());
+    }
+
+
+
+    @Test(description = "Testing header of the page")
+    public void verifyMainHeaderText(){
+        extentTest.log(LogStatus.INFO, "Captured title of the page: " + homePage.mainHeader.getText());
+        Assert.assertEquals(homePage.mainHeader.getText(), "Automation with Selenium");
+        screenshot.takeScreenshotAndLog();
+    }
 
     @Test(testName = "Verify Title", description = "This test validates title of Home page", groups = "smoke")
     public void verifyTitle(){
@@ -47,6 +67,8 @@ public class HomePageTest extends BaseTest {
         Assert.assertEquals(actualTitle, pageTitle);
     }
 
+
+
     @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver().quit();
@@ -77,5 +99,6 @@ public class HomePageTest extends BaseTest {
 
         return data;
     }
+
 
 }

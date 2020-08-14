@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+        <theme>dark</theme>
+        <documentTitle>TLA</documentTitle>
+        <reportName>Automation Practice TLA Reports</reportName>
+        <reportHeadline></reportHeadline>
+        <dateFormat>yyyy-MM-dd</dateFormat>
+        <timeFormat>HH:mm:ss</timeFormat>
+        <scripts>
+            <![CDATA[ $(document).ready(function(){});]]>
+        </scripts>
+        <scripts>
+            <![CDATA[ $(document).ready(function() {$('.dashboard-view').click(); });]]>
+        </scripts>
+        <styles><![CDATA[      ]]></styles>
+    </configuration>
+</extentreports>

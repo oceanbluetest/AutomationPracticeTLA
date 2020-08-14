@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48ce4e9c-73b1-450f-b105-b5b22715fcb8" name="Default Changelist" comment="" />
+    <list default="true" id="48ce4e9c-73b1-450f-b105-b5b22715fcb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/pages/SynchronizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/SynchronizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/runners/homePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/runners/homePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/SynchronizationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/SynchronizationPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AutomationPracticeTLA.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SynchronizationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/SynchronizationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/homePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/homePage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SynchronizationPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SynchronizationPageTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1g1K1NTXfBgs0WhWsvGgZqctHQZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,10 +54,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -44,20 +70,7 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/AutomationPracticeTLA/src/test/runners/homePage.xml">
-    <configuration name="TEstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.TEstClass" />
-      <module name="AutomationPracticeTLA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.verifyHeader" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPracticeTLA" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +80,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="verifyHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyMainHeaderText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeTLA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyMainHeaderText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeTLA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizationPageTest.verifyAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeTLA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SynchronizationPageTest" />
+      <option name="METHOD_NAME" value="verifyAlert" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -84,11 +161,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/AutomationPracticeTLA/src/test/runners/homePage.xml" />
+      <item itemvalue="TestNG.HomePageTest.verifyHeader" />
+      <item itemvalue="TestNG.HomePageTest.verifyMainHeaderText" />
+      <item itemvalue="TestNG.HomePageTest.verifyTitle" />
+      <item itemvalue="TestNG.SynchronizationPageTest.verifyAlert" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/kuba/Projects/TLA/Selenium/Projects (IntelliJ)/AutomationPracticeTLA/src/test/runners/homePage.xml" />
-        <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="Application.TEstClass" />
+        <item itemvalue="TestNG.HomePageTest.verifyMainHeaderText" />
+        <item itemvalue="TestNG.SynchronizationPageTest.verifyAlert" />
+        <item itemvalue="TestNG.HomePageTest.verifyTitle" />
+        <item itemvalue="TestNG.HomePageTest.verifyHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -115,26 +201,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1597280625656">
+    <state x="424" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597366632461">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597280625656" />
-    <state width="1878" height="232" key="GridCell.Tab.0.center" timestamp="1597280625652">
+    <state x="424" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597366632461" />
+    <state x="773" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1597365884877">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597280625652" />
-    <state width="1878" height="232" key="GridCell.Tab.0.left" timestamp="1597280625651">
+    <state x="773" y="252" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597365884877" />
+    <state width="1878" height="229" key="GridCell.Tab.0.bottom" timestamp="1597370218042">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597280625651" />
-    <state width="1878" height="232" key="GridCell.Tab.0.right" timestamp="1597280625654">
+    <state width="1638" height="137" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1597342634004" />
+    <state width="1878" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597370218042" />
+    <state width="943" height="229" key="GridCell.Tab.0.bottom/0.23.1920.991/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.991" timestamp="1597366275912" />
+    <state width="1878" height="229" key="GridCell.Tab.0.center" timestamp="1597370218038">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597280625654" />
-    <state x="448" y="123" key="SettingsEditor" timestamp="1597276738788">
+    <state width="1638" height="137" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1597342634002" />
+    <state width="1878" height="229" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597370218038" />
+    <state width="943" height="229" key="GridCell.Tab.0.center/0.23.1920.991/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.991" timestamp="1597366275908" />
+    <state width="1878" height="229" key="GridCell.Tab.0.left" timestamp="1597370218037">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="448" y="123" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597276738788" />
+    <state width="1638" height="137" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1597342634001" />
+    <state width="1878" height="229" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597370218037" />
+    <state width="943" height="229" key="GridCell.Tab.0.left/0.23.1920.991/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.991" timestamp="1597366275907" />
+    <state width="1878" height="229" key="GridCell.Tab.0.right" timestamp="1597370218040">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="137" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1597342634003" />
+    <state width="1878" height="229" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597370218040" />
+    <state width="943" height="229" key="GridCell.Tab.0.right/0.23.1920.991/1920.23.1920.1057/-1680.23.1680.1027@0.23.1920.991" timestamp="1597366275909" />
+    <state x="448" y="123" key="SettingsEditor" timestamp="1597366923859">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="123" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597366923859" />
+    <state x="565" y="144" width="790" height="792" key="find.popup" timestamp="1597369390730">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="565" y="144" width="790" height="792" key="find.popup/0.0.1920.1080/1920.0.1920.1080/-1680.0.1680.1050@0.0.1920.1080" timestamp="1597369390730" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1597282412094">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

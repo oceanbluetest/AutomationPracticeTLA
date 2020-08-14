@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AutomationPracticeTLA(failed)">
+    <classes>
+      <class name="tests.SynchronizationPageTest">
+        <methods>
+          <include name="verifyAlert"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SynchronizationPageTest -->
+    </classes>
+  </test> <!-- AutomationPracticeTLA(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
